@@ -1,4 +1,5 @@
-var nthCheck = require("./"),
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
+var nthCheck = require("nth-check/"),
     assert = require("assert");
 
 var invalid = ["-", "- 1n", "-1 n", "2+0", "2n+-0", "an+b", "asdf", "b", "expr", "odd|even|x"];
@@ -100,3 +101,5 @@ parseValid();
 process.stdout.write("X\n- check values:  \t");
 testValid();
 process.stdout.write("X\n");
+
+return module.exports;});

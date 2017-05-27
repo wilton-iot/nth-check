@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 module.exports = compile;
 
 var BaseFuncs = require("boolbase"),
@@ -38,3 +39,5 @@ function compile(parsed){
 		return pos <= b && pos % a === bMod;
 	};
 }
+
+return module.exports;});
