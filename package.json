@@ -24,5 +24,10 @@
   "homepage": "https://github.com/fb55/nth-check",
   "dependencies": {
     "boolbase": "~1.0.0"
+  },
+  "wilton": {
+    "excludes": [
+      "test.js"
+    ]
   }
 }
